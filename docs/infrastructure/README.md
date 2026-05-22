@@ -1,10 +1,10 @@
-# ☁️ Infrastructure & Deployment
+# Infrastructure & Deployment
 
 > AWS CloudFormation templates, CDN caching strategies, and DevOps pipelines for Vedashi.
 
 Vedashi is designed to be highly available, fault-tolerant, and infinitely scalable to handle sudden traffic spikes (e.g., flash sales, holiday traffic). Our infrastructure is defined as code (IaC) using **AWS CloudFormation / Terraform**.
 
-## 🏗️ High-Level Architecture
+## High-Level Architecture
 
 Our stack leverages modern cloud-native principles:
 
@@ -28,7 +28,7 @@ graph TD
 
 ---
 
-## ⚡ CDN & Caching Strategy (CloudFront)
+## CDN & Caching Strategy (CloudFront)
 
 Global performance is critical for e-commerce. We utilize **Amazon CloudFront** to edge-cache our content globally.
 
@@ -52,7 +52,7 @@ We use CloudFront integration with AWS Lambda@Edge (or a dedicated service) to s
 
 ---
 
-## 🚀 CI/CD Pipeline
+## CI/CD Pipeline
 
 Our deployment lifecycle is fully automated via **GitHub Actions**.
 
@@ -61,7 +61,7 @@ Our deployment lifecycle is fully automated via **GitHub Actions**.
 3. **Deploy (Staging):** The image is deployed to a staging ECS cluster. Automated E2E Cypress tests run.
 4. **Deploy (Production):** Upon manual approval, CloudFormation updates the production ECS service, orchestrating a **Rolling Update** with zero downtime.
 
-## 🛡️ Security & Compliance
+## Security & Compliance
 
 - **AWS WAF:** Protects against SQL injection, XSS, and massive DDoS attacks.
 - **VPC:** All databases (RDS, Redis) reside in private subnets, completely isolated from the public internet. Only the ALB is exposed via public subnets.

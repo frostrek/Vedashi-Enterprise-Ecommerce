@@ -2,7 +2,7 @@
 
 Welcome to the Vedashi Brand and Marketing Assets repository. This document outlines the core principles, visual identity, and marketing materials for the Vedashi Enterprise E-Commerce platform, a property of Frostrek AI.
 
-## 🌟 Brand Overview
+## Brand Overview
 
 **Vedashi** is a premier enterprise e-commerce and marketplace solution designed to empower vendors and provide an unparalleled shopping experience for consumers. Our brand stands for reliability, innovation, scalability, and elegance.
 
@@ -14,7 +14,7 @@ Welcome to the Vedashi Brand and Marketing Assets repository. This document outl
 
 ---
 
-## 🎨 Visual Identity
+## Visual Identity
 
 ### 1. Logo Guidelines
 The Vedashi logo is our most recognizable asset. Please adhere to the following guidelines:
@@ -43,7 +43,7 @@ Our typography is clean, modern, and highly legible across all devices.
 
 ---
 
-## 🗣️ Brand Voice and Tone
+## Brand Voice and Tone
 
 Vedashi speaks with a voice that is:
 - **Professional yet Approachable:** We are experts in our field, but we speak clearly and avoid unnecessary jargon.
@@ -56,7 +56,7 @@ Vedashi speaks with a voice that is:
 
 ---
 
-## 📸 Imagery and Photography
+## Imagery and Photography
 
 Our visual imagery should always reflect our core values.
 - **People-Centric:** Show vendors and consumers actively engaging and succeeding.
@@ -66,7 +66,7 @@ Our visual imagery should always reflect our core values.
 
 ---
 
-## 📁 Marketing Materials
+## Marketing Materials
 
 Within the `assets` directory, you will find organized folders containing:
 
@@ -78,7 +78,7 @@ Within the `assets` directory, you will find organized folders containing:
 
 ---
 
-## 🔒 Copyright and Usage
+## Copyright and Usage
 
 *All assets provided in this directory are the exclusive property of Frostrek AI and Vedashi. They may only be used for official Vedashi marketing, development, and promotional purposes. Unauthorized distribution or alteration is strictly prohibited.*
 

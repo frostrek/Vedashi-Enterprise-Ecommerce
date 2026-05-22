@@ -1,4 +1,4 @@
-# 📚 E-Commerce Technical Documentation
+# E-Commerce Technical Documentation
 
 This directory houses the technical blueprints and integration guides for our Multi-Vendor Marketplace solutions.
 

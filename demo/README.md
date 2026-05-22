@@ -1,4 +1,4 @@
-# 🎥 Storefront Demos
+# Storefront Demos
 
 This directory contains visual demonstrations and sandbox environments for our enterprise E-Commerce solutions, featuring the **Vedashi Marketplace**.
 

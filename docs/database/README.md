@@ -1,10 +1,10 @@
-# 🗄️ Database Architecture
+# Database Architecture
 
 > Technical blueprints for Vedashi's highly scalable, multi-vendor relational database schema.
 
 Our database is built on **PostgreSQL**, optimized for complex multi-party relationships, high-throughput inventory tracking, and robust transactional integrity. This document outlines our core schema paradigms.
 
-## 🏗️ Core Domains
+## Core Domains
 
 Our schema is logically partitioned into the following domains:
 
@@ -15,7 +15,7 @@ Our schema is logically partitioned into the following domains:
 
 ---
 
-## 🏬 Multi-Vendor Relationships
+## Multi-Vendor Relationships
 
 The Vedashi platform supports a true multi-vendor marketplace model. 
 
@@ -38,7 +38,7 @@ erDiagram
 
 ---
 
-## 📦 Inventory Tracking System
+## Inventory Tracking System
 
 To prevent race conditions and overselling during high-traffic events, we employ a **Stock Movement** architecture.
 
@@ -63,14 +63,14 @@ CREATE TABLE stock_movements (
 
 ---
 
-## 🔒 Concurrency & Transactions
+## Concurrency & Transactions
 
 All critical financial and inventory operations are wrapped in `SERIALIZABLE` or strictly locked transactions to ensure ACID compliance.
 
 - **Order Placement:** Uses `SELECT ... FOR UPDATE` on inventory records to lock rows during checkout validation.
 - **Snapshots:** `order_items` stores historical snapshots (`unit_price`, `product_name_snapshot`) to ensure that post-purchase changes by a vendor do not alter historical order invoices.
 
-## 🚀 Optimization & Indexing
+## Optimization & Indexing
 
 - **Foreign Keys:** All foreign keys are indexed by default.
 - **Full-Text Search:** We utilize PostgreSQL's `tsvector` and GIN indexes on `products.search_vector` for lightning-fast catalog queries.

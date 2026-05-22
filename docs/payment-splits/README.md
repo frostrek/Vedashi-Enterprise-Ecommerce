@@ -1,10 +1,10 @@
-# 💸 Payment Splits & Financial Routing
+# Payment Splits & Financial Routing
 
 > Logic documentation for handling multi-party transactions, commissions, and automated vendor payouts.
 
 In a multi-vendor marketplace, payment logic is highly complex. A single customer checkout may contain products from three different vendors. Vedashi handles this seamlessly by utilizing payment gateways that support multi-party routing (e.g., **Stripe Connect** or **Razorpay Route**).
 
-## 🧩 The Challenge: Unified Checkout
+## The Challenge: Unified Checkout
 
 When a customer checks out, they expect a single transaction, regardless of how many vendors they are buying from.
 
@@ -14,7 +14,7 @@ When a customer checks out, they expect a single transaction, regardless of how 
 - Item B (Vendor Y): $100
 - Platform Commission: 10%
 
-## 🛤️ The Routing Architecture
+## The Routing Architecture
 
 We do not hold funds manually. Instead, we use programmatic splits at the time of charge.
 
@@ -37,7 +37,7 @@ graph TD
 
 ---
 
-## ⏳ Holding Funds & Fulfillment
+## Holding Funds & Fulfillment
 
 To ensure buyer protection and prevent fraud, vendor payouts are not immediate.
 
@@ -48,14 +48,14 @@ To ensure buyer protection and prevent fraud, vendor payouts are not immediate.
 
 ---
 
-## 🧮 Handling Refunds & Disputes
+## Handling Refunds & Disputes
 
 Refunds are complex because the platform fee and the vendor's portion must both be reversed.
 
 - **Full Refund:** The platform reverses the entire transaction. The gateway automatically pulls $45 from Vendor X, $90 from Vendor Y, and $15 from the Platform.
 - **Partial Refund (e.g., returning only Item A):** The system calculates the exact transfer reversal needed. It pulls $45 back from Vendor X and $5 back from the Platform. Vendor Y is unaffected.
 
-## 📊 Ledger & Reconciliation
+## Ledger & Reconciliation
 
 Our `wallet_transactions` and `invoices` tables maintain an immutable ledger.
 - Every split, fee, tax calculation, and payout is recorded as a double-entry accounting ledger entry.

@@ -80,6 +80,19 @@ Lightning-fast product image delivery via AWS CloudFront, coupled with a robust 
 
 ---
 
+##  Product Gallery
+
+Explore the Vedashi Enterprise E-Commerce Platform interface:
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/best-sellers-section.png" width="48%" alt="Vedashi Product View 1">
+  <img src="assets/product-page.png" width="48%" alt="Vedashi Product View 2">
+  <img src="assets/products-page.png" width="48%" alt="Vedashi Product View 3">
+  <img src="assets/admin-inventory.png" width="48%" alt="Vedashi Product View 4">
+</div>
+
+---
+
 ## 🛠️ Tech Stack & Infrastructure
 
 This platform is powered by modern, battle-tested technologies designed to handle high-traffic sales events and massive datasets:

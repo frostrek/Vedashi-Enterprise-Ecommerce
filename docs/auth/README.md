@@ -1,10 +1,10 @@
-# 🔐 Authentication & Authorization Flow
+# Authentication & Authorization Flow
 
 > Comprehensive guide to Vedashi's secure, role-based JWT authentication system.
 
 Our authentication infrastructure is designed to securely support three distinct user types: **Customers**, **Vendors (Suppliers)**, and **Internal Admins**, while maintaining strict separation of concerns.
 
-## 🛡️ Authentication Strategy
+## Authentication Strategy
 
 Vedashi utilizes **Stateless JWT (JSON Web Tokens)** paired with a secure **Refresh Token** mechanism.
 
@@ -22,7 +22,7 @@ Vedashi utilizes **Stateless JWT (JSON Web Tokens)** paired with a secure **Refr
 
 ---
 
-## 👥 Role-Based Access Control (RBAC)
+## Role-Based Access Control (RBAC)
 
 We implement strict RBAC enforced at the API gateway and middleware level.
 
@@ -43,7 +43,7 @@ We implement strict RBAC enforced at the API gateway and middleware level.
 
 ---
 
-## 🔄 The Authentication Lifecycle
+## The Authentication Lifecycle
 
 ### 1. Login
 ```mermaid
@@ -73,7 +73,7 @@ sequenceDiagram
 
 ---
 
-## 🚨 Security Best Practices Implemented
+## Security Best Practices Implemented
 
 - **Token Blacklisting**: When a user logs out, their current refresh token is blacklisted in the database.
 - **Password Hashing**: We use `Argon2id` or `Bcrypt` with high work factors.

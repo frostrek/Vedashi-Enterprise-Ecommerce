@@ -1,4 +1,4 @@
-# 🖼️ E-Commerce Assets
+# E-Commerce Assets
 
 This directory contains static assets related to our E-Commerce and Marketplace solutions, including:
 

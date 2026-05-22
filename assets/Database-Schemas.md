@@ -1,4 +1,4 @@
-# 🗄️ Vedashi Database Schemas
+# Vedashi Database Schemas
 
 Welcome to the Vedashi Database Schema documentation. This document outlines the *actual* core data models and their relationships as fetched directly from our PostgreSQL database (`inventory` schema). 
 
@@ -87,7 +87,7 @@ This mapping table records the exact state of a product variant at the time of p
 
 ---
 
-## 🔗 Entity Relationships Highlights
+## Entity Relationships Highlights
 
 - **Supplier to Products (1:N):** Handled via `product_suppliers` junction tables or direct `supplier_id` on variants, connecting products to their sources.
 - **Product to Variants (1:N):** A single Product can have many `product_variants` (which hold actual price and inventory).
