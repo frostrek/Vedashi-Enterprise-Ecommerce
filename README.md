@@ -29,9 +29,9 @@ The platform bridges the gap between authentic Indian Ayurvedic brands and healt
 
 Generic off-the-shelf e-commerce platforms (like Shopify or WooCommerce) often fail to meet the complex data and operational needs of specialized wellness marketplaces. For Vedashi, we addressed three critical gaps:
 
-1. **Complex Product Taxonomies:** Standard platforms lack native support for Ayurvedic classifications (Doshas, specialized health benefits, supplement facts). Sellers had to hack generic "tags" to display vital health data.
-2. **Logistics & Compliance:** Managing returns, shipments (via local carriers like Shiprocket), and tax/invoicing specific to the Indian and cross-border wellness markets required fragmented third-party apps that degraded performance.
-3. **Advanced Customer Retention:** Small and medium-sized wellness vendors lacked the enterprise-grade loyalty infrastructure and editorial content engines needed to educate and retain wellness buyers.
+1. **No Global Path:** Thousands of premium Ayurvedic and wellness brands had no reliable, frictionless path to reach international global markets.
+2. **Platform Gaps:** Existing generic platforms failed to support the specific nuances of Indian product categories, complex compliance requirements, and cross-border logistics logic.
+3. **Lack of Infrastructure:** Small and medium-sized vendors lacked the necessary digital infrastructure to efficiently set up, list, and manage their products at scale.
 
 ---
 
