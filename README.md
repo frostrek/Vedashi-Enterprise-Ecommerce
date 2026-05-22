@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/2F855A/FFFFFF?text=Frostrek+AI+%7C+Vedashi+Enterprise+E-Commerce" alt="Frostrek E-Commerce Solutions Banner">
+  <img src="assets/landing-page.png" alt="Frostrek E-Commerce Solutions Banner">
   
   <br>
   
-  <h1>🛒 Vedashi Enterprise Multi-Vendor E-Commerce Platform</h1>
+  <h1> Vedashi Enterprise Multi-Vendor E-Commerce Platform</h1>
   <p><b>Showcase Project: India's Premium Ayurvedic & Wellness Marketplace</b></p>
   
   <p>
@@ -17,7 +17,7 @@
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 **Vedashi** is a production-grade, highly specialized e-commerce platform purpose-built for the wellness, herbal, and Ayurvedic goods market. Built entirely from the ground up by Frostrek AI, it functions as a fully scalable, multi-supplier marketplace. 
 
@@ -25,7 +25,7 @@ The platform bridges the gap between authentic Indian Ayurvedic brands and healt
 
 ---
 
-## ⚠️ The Problem We Solved
+## The Problem We Solved
 
 Generic off-the-shelf e-commerce platforms (like Shopify or WooCommerce) often fail to meet the complex data and operational needs of specialized wellness marketplaces. For Vedashi, we addressed three critical gaps:
 
@@ -35,25 +35,25 @@ Generic off-the-shelf e-commerce platforms (like Shopify or WooCommerce) often f
 
 ---
 
-## 🏗️ What We Built
+## What We Built
 
 We engineered a complete, production-ready e-commerce ecosystem from scratch, specifically tailored for the Ayurvedic market, ensuring zero compromises on speed, scalability, or user experience.
 
-### 🛍️ Consumer Storefront
+### Consumer Storefront
 A fully optimized, high-converting shopping experience featuring intelligent search, symptom-based dynamic filtering, localized pricing, and deep integration with an educational health blog.
 
-### 🎛️ Admin & Supplier Command Center
+### Admin & Supplier Command Center
 A comprehensive suite providing full administrative control over multi-stage order fulfillment, dynamic marketing banners (Promo Hero settings), advanced B2B bulk discount tracking, and deep inventory analytics.
 
-### 🔒 Enterprise-Grade Financial Ledger
+### Enterprise-Grade Financial Ledger
 A highly secure, ACID-compliant ledger that handles complex multi-vendor split payments, Razorpay integration, wallet transactions, and automated invoicing sequences.
 
-### ⚡ CDN-Backed Media & Architecture
+### CDN-Backed Media & Architecture
 Lightning-fast product image delivery via AWS CloudFront, coupled with a robust PostgreSQL backend utilizing precise stock movement tracking to prevent overselling during high-traffic sales.
 
 ---
 
-## ⚙️ Core Features & Capabilities
+## Core Features & Capabilities
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div style="width: 48%;">
@@ -93,7 +93,7 @@ Explore the Vedashi Enterprise E-Commerce Platform interface:
 
 ---
 
-## 🛠️ Tech Stack & Infrastructure
+## Tech Stack & Infrastructure
 
 This platform is powered by modern, battle-tested technologies designed to handle high-traffic sales events and massive datasets:
 
