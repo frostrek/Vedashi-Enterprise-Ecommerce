@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/2F855A/FFFFFF?text=Frostrek+AI+%7C+Enterprise+E-Commerce+Solutions" alt="Frostrek E-Commerce Solutions Banner">
+  <img src="https://via.placeholder.com/800x200/2F855A/FFFFFF?text=Frostrek+AI+%7C+Vedashi+Enterprise+E-Commerce" alt="Frostrek E-Commerce Solutions Banner">
   
   <br>
   
-  <h1>🛒 Enterprise Multi-Vendor E-Commerce Platform</h1>
-  <p><b>Showcase Project: Vedashi - India's Premium Wellness Marketplace</b></p>
+  <h1>🛒 Vedashi Enterprise Multi-Vendor E-Commerce Platform</h1>
+  <p><b>Showcase Project: India's Premium Ayurvedic & Wellness Marketplace</b></p>
   
   <p>
     <a href="#-project-overview">Overview</a> • 
-    <a href="#-the-problem">The Problem</a> • 
+    <a href="#-the-problem-we-solved">The Problem</a> • 
     <a href="#-what-we-built">What We Built</a> • 
-    <a href="#-core-features">Core Features</a> • 
-    <a href="#-tech-stack">Tech Stack</a>
+    <a href="#-core-features--capabilities">Core Features</a> • 
+    <a href="#-tech-stack--infrastructure">Tech Stack</a>
   </p>
 </div>
 
@@ -19,37 +19,37 @@
 
 ## 🌟 Project Overview
 
-**Vedashi** is a production-grade e-commerce platform purpose-built for the wellness, herbal, and natural goods market. It is a fully scalable, multi-vendor marketplace built entirely from the ground up by Frostrek. 
+**Vedashi** is a production-grade, highly specialized e-commerce platform purpose-built for the wellness, herbal, and Ayurvedic goods market. Built entirely from the ground up by Frostrek AI, it functions as a fully scalable, multi-supplier marketplace. 
 
-The platform connects authentic Indian brands to customers worldwide, supporting multi-vendor seller onboarding, curated brand storefronts, international shipping, multi-currency payments, and a fully optimized consumer storefront.
+The platform bridges the gap between authentic Indian Ayurvedic brands and health-conscious consumers worldwide. It supports complex multi-vendor seller onboarding, strict health-compliance product cataloging (including Doshas and ingredient tracking), integrated logistics, and a fully optimized, immersive consumer storefront.
 
 ---
 
 ## ⚠️ The Problem We Solved
 
-Generic off-the-shelf e-commerce platforms often fail to meet the complex needs of specialized, cross-border marketplaces. For Vedashi, we addressed three critical gaps:
+Generic off-the-shelf e-commerce platforms (like Shopify or WooCommerce) often fail to meet the complex data and operational needs of specialized wellness marketplaces. For Vedashi, we addressed three critical gaps:
 
-1. **No Global Path:** Thousands of premium Ayurvedic and wellness brands had no reliable, frictionless path to reach international global markets.
-2. **Platform Gaps:** Existing generic platforms failed to support the specific nuances of Indian product categories, complex compliance requirements, and cross-border logistics logic.
-3. **Lack of Infrastructure:** Small and medium-sized vendors lacked the necessary digital infrastructure to efficiently set up, list, and manage their products at scale.
+1. **Complex Product Taxonomies:** Standard platforms lack native support for Ayurvedic classifications (Doshas, specialized health benefits, supplement facts). Sellers had to hack generic "tags" to display vital health data.
+2. **Logistics & Compliance:** Managing returns, shipments (via local carriers like Shiprocket), and tax/invoicing specific to the Indian and cross-border wellness markets required fragmented third-party apps that degraded performance.
+3. **Advanced Customer Retention:** Small and medium-sized wellness vendors lacked the enterprise-grade loyalty infrastructure and editorial content engines needed to educate and retain wellness buyers.
 
 ---
 
 ## 🏗️ What We Built
 
-We engineered a complete, production-ready e-commerce ecosystem from scratch, ensuring zero compromises on speed, scalability, or user experience.
+We engineered a complete, production-ready e-commerce ecosystem from scratch, specifically tailored for the Ayurvedic market, ensuring zero compromises on speed, scalability, or user experience.
 
 ### 🛍️ Consumer Storefront
-A fully optimized, high-converting shopping experience featuring intelligent search, dynamic filtering, localized pricing, and category-driven discovery.
+A fully optimized, high-converting shopping experience featuring intelligent search, symptom-based dynamic filtering, localized pricing, and deep integration with an educational health blog.
 
-### 🎛️ Admin & Vendor Dashboard
-A comprehensive command center providing full administrative control over products, vendor payouts, multi-stage order fulfillment, dynamic marketing banners, and deep analytics.
+### 🎛️ Admin & Supplier Command Center
+A comprehensive suite providing full administrative control over multi-stage order fulfillment, dynamic marketing banners (Promo Hero settings), advanced B2B bulk discount tracking, and deep inventory analytics.
 
-### 🌍 Global-Ready Architecture
-Sophisticated logic handling multi-currency conversion, cross-border international shipping integrations, tax calculations, and geo-based routing.
+### 🔒 Enterprise-Grade Financial Ledger
+A highly secure, ACID-compliant ledger that handles complex multi-vendor split payments, Razorpay integration, wallet transactions, and automated invoicing sequences.
 
-### ⚡ CDN-Backed Media Infrastructure
-Lightning-fast product image and media delivery via AWS CloudFront, ensuring a buttery-smooth user experience regardless of the customer's geographic location.
+### ⚡ CDN-Backed Media & Architecture
+Lightning-fast product image delivery via AWS CloudFront, coupled with a robust PostgreSQL backend utilizing precise stock movement tracking to prevent overselling during high-traffic sales.
 
 ---
 
@@ -57,23 +57,23 @@ Lightning-fast product image and media delivery via AWS CloudFront, ensuring a b
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div style="width: 48%;">
-    <h4>Marketplace Operations</h4>
+    <h4>Marketplace & Catalog Operations</h4>
     <ul>
-      <li>Automated vendor onboarding & KYC</li>
-      <li>Multi-vendor split payments</li>
-      <li>Custom storefronts per brand</li>
-      <li>Inventory forecasting & alerts</li>
-      <li>Granular role-based access control (RBAC)</li>
+      <li><b>Ayurvedic Taxonomy:</b> Native support for Doshas, ingredients, and Ayurvedic properties.</li>
+      <li><b>Supplier Management:</b> Isolated tenant structures with strict Role-Based Access Control (RBAC).</li>
+      <li><b>Inventory Integrity:</b> Immutable `stock_movements` table preventing race conditions.</li>
+      <li><b>Logistics Engine:</b> Integrated shipment tracking, Shiprocket manifest generation, and RTO status tracking.</li>
+      <li><b>Dynamic Disocunts:</b> B2B bulk discount logic and auto-applying coupon systems.</li>
     </ul>
   </div>
   <div style="width: 48%;">
-    <h4>Customer Experience</h4>
+    <h4>Customer Experience & Retention</h4>
     <ul>
-      <li>Hyper-fast SSR (Server-Side Rendered) catalog</li>
-      <li>Geo-located currency & pricing</li>
-      <li>Frictionless international checkout</li>
-      <li>Real-time shipment tracking</li>
-      <li>Intelligent cart & wishlist synchronization</li>
+      <li><b>Loyalty System:</b> Integrated point earning, tiers, and wallet redemptions.</li>
+      <li><b>Editorial Engine:</b> Built-in blog system natively linked to product attributes for seamless discovery.</li>
+      <li><b>GDPR & Privacy:</b> Strict consent logging, breach logs, and data processing compliance tools built-in.</li>
+      <li><b>Frictionless Auth:</b> OTP-based login, social SSO, and seamless session management.</li>
+      <li><b>Advanced Search:</b> Full-text PostgreSQL search vectoring with synonym and analytic tracking.</li>
     </ul>
   </div>
 </div>
@@ -82,12 +82,13 @@ Lightning-fast product image and media delivery via AWS CloudFront, ensuring a b
 
 ## 🛠️ Tech Stack & Infrastructure
 
-This platform is powered by modern, battle-tested technologies designed to handle high-traffic sales events:
+This platform is powered by modern, battle-tested technologies designed to handle high-traffic sales events and massive datasets:
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
 ![AWS CloudFront](https://img.shields.io/badge/AWS%20CloudFront-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -96,6 +97,6 @@ This platform is powered by modern, battle-tested technologies designed to handl
 
 <div align="center">
   <h3>Looking for an enterprise e-commerce solution?</h3>
-  <p>Whether you need a multi-vendor marketplace or a high-converting storefront, the <b>Frostrek AI</b> team can build it.</p>
+  <p>Whether you need a specialized multi-vendor marketplace or a high-converting storefront, the <b>Frostrek AI</b> team can build it.</p>
   <a href="https://www.frostrek.ai/contact"><b>Let's talk about your next product</b></a>
 </div>
